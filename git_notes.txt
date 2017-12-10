@@ -1,0 +1,122 @@
+dan@dan-HP-EliteBook-8770w:~$ sudo apt-get install git
+[sudo] password for dan: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+git is already the newest version (1:2.7.4-0ubuntu1.3).
+The following packages were automatically installed and are no longer required:
+  libcuda1-375 libllvm3.8 libmircommon5 libncurses5-dev linux-headers-4.4.0-81
+  linux-headers-4.4.0-81-generic linux-headers-4.4.0-83
+  linux-headers-4.4.0-83-generic linux-headers-4.4.0-87
+  linux-headers-4.4.0-87-generic linux-headers-4.4.0-89
+  linux-headers-4.4.0-89-generic linux-headers-4.4.0-91
+  linux-headers-4.4.0-91-generic linux-headers-4.4.0-92
+  linux-headers-4.4.0-92-generic linux-headers-4.4.0-93
+  linux-headers-4.4.0-93-generic linux-headers-4.4.0-96
+  linux-headers-4.4.0-96-generic linux-headers-4.4.0-97
+  linux-headers-4.4.0-97-generic linux-headers-4.4.0-98
+  linux-headers-4.4.0-98-generic linux-image-4.4.0-81-generic
+  linux-image-4.4.0-83-generic linux-image-4.4.0-87-generic
+  linux-image-4.4.0-89-generic linux-image-4.4.0-91-generic
+  linux-image-4.4.0-92-generic linux-image-4.4.0-93-generic
+  linux-image-4.4.0-96-generic linux-image-4.4.0-97-generic
+  linux-image-4.4.0-98-generic linux-image-extra-4.4.0-81-generic
+  linux-image-extra-4.4.0-83-generic linux-image-extra-4.4.0-87-generic
+  linux-image-extra-4.4.0-89-generic linux-image-extra-4.4.0-91-generic
+  linux-image-extra-4.4.0-92-generic linux-image-extra-4.4.0-93-generic
+  linux-image-extra-4.4.0-96-generic linux-image-extra-4.4.0-97-generic
+  linux-image-extra-4.4.0-98-generic nvidia-opencl-icd-375 snap-confine
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+dan@dan-HP-EliteBook-8770w:~$ 
+dan@dan-HP-EliteBook-8770w:~$ git config --global user.name "friedda1"
+dan@dan-HP-EliteBook-8770w:~$ git config --global user.email "friedda1@gmail.com"
+dan@dan-HP-EliteBook-8770w:~$ git init Mytest
+Initialized empty Git repository in /home/dan/Mytest/.git/
+dan@dan-HP-EliteBook-8770w:~$ cd Mytest
+dan@dan-HP-EliteBook-8770w:~/Mytest$ pwd
+/home/dan/Mytest
+dan@dan-HP-EliteBook-8770w:~/Mytest$ gedit README
+
+
+dan@dan-HP-EliteBook-8770w:~/Mytest$ sudo apt-get install git-gui
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libcuda1-375 libllvm3.8 libmircommon5 libncurses5-dev linux-headers-4.4.0-81 linux-headers-4.4.0-81-generic
+  linux-headers-4.4.0-83 linux-headers-4.4.0-83-generic linux-headers-4.4.0-87 linux-headers-4.4.0-87-generic
+  linux-headers-4.4.0-89 linux-headers-4.4.0-89-generic linux-headers-4.4.0-91 linux-headers-4.4.0-91-generic
+  linux-headers-4.4.0-92 linux-headers-4.4.0-92-generic linux-headers-4.4.0-93 linux-headers-4.4.0-93-generic
+  linux-headers-4.4.0-96 linux-headers-4.4.0-96-generic linux-headers-4.4.0-97 linux-headers-4.4.0-97-generic
+  linux-headers-4.4.0-98 linux-headers-4.4.0-98-generic linux-image-4.4.0-81-generic linux-image-4.4.0-83-generic
+  linux-image-4.4.0-87-generic linux-image-4.4.0-89-generic linux-image-4.4.0-91-generic
+  linux-image-4.4.0-92-generic linux-image-4.4.0-93-generic linux-image-4.4.0-96-generic
+  linux-image-4.4.0-97-generic linux-image-4.4.0-98-generic linux-image-extra-4.4.0-81-generic
+  linux-image-extra-4.4.0-83-generic linux-image-extra-4.4.0-87-generic linux-image-extra-4.4.0-89-generic
+  linux-image-extra-4.4.0-91-generic linux-image-extra-4.4.0-92-generic linux-image-extra-4.4.0-93-generic
+  linux-image-extra-4.4.0-96-generic linux-image-extra-4.4.0-97-generic linux-image-extra-4.4.0-98-generic
+  nvidia-opencl-icd-375 snap-confine
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  gitk
+Suggested packages:
+  git-doc
+The following NEW packages will be installed:
+  git-gui gitk
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 339 kB of archives.
+After this operation, 3,471 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 git-gui all 1:2.7.4-0ubuntu1.3 [207 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 gitk all 1:2.7.4-0ubuntu1.3 [132 kB]
+Fetched 339 kB in 0s (917 kB/s)
+Selecting previously unselected package git-gui.
+(Reading database ... 696989 files and directories currently installed.)
+Preparing to unpack .../git-gui_1%3a2.7.4-0ubuntu1.3_all.deb ...
+Unpacking git-gui (1:2.7.4-0ubuntu1.3) ...
+Selecting previously unselected package gitk.
+Preparing to unpack .../gitk_1%3a2.7.4-0ubuntu1.3_all.deb ...
+Unpacking gitk (1:2.7.4-0ubuntu1.3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up git-gui (1:2.7.4-0ubuntu1.3) ...
+Setting up gitk (1:2.7.4-0ubuntu1.3) ...
+dan@dan-HP-EliteBook-8770w:~/Mytest$ gitk
+dan@dan-HP-EliteBook-8770w:~/Mytest$ gitgui
+gitgui: command not found
+dan@dan-HP-EliteBook-8770w:~/Mytest$ git-gui
+git-gui: command not found
+dan@dan-HP-EliteBook-8770w:~/Mytest$ gitk
+dan@dan-HP-EliteBook-8770w:~/Mytest$ gitk
+
+(nautilus:11804): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:11804): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+
+(nautilus:11804): Gtk-CRITICAL **: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
+
+(nautilus:11804): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+
+(nautilus:11804): GLib-GObject-CRITICAL **: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+dan@dan-HP-EliteBook-8770w:~/Mytest$ git add quick_test.py
+dan@dan-HP-EliteBook-8770w:~/Mytest$ git commit -m "First commit of local files"
+[master (root-commit) 799bf52] First commit of local files
+ 1 file changed, 4 insertions(+)
+ create mode 100644 quick_test.py
+dan@dan-HP-EliteBook-8770w:~/Mytest$ git remote add origin https://github.com/friedda1/Mytest.git
+dan@dan-HP-EliteBook-8770w:~/Mytest$ git push origin master
+Username for 'https://github.com': friedda1
+Password for 'https://friedda1@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 267 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/friedda1/Mytest.git
+ * [new branch]      master -> master
+dan@dan-HP-EliteBook-8770w:~/Mytest$ 
+
+
+
+
+https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
